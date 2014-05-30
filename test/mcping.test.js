@@ -6,6 +6,8 @@ describe("A Minecraft ping server", function () {
   it("tells how many players are connected", function (done) {
     var pinger = {
           ping: function (host, port, callback) {
+            expect(host).to.equal("some.minecraft.server");
+            expect(port).to.equal(9999);
             callback(42);
             done();
           }
