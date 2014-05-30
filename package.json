@@ -1,0 +1,19 @@
+{
+  "name": "minecraftPing",
+  "version": "0.0.0",
+  "description": "A Minecraft Server Pinger",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egaillot/the-server-that-goes-ping.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/egaillot/the-server-that-goes-ping/issues"
+  },
+  "homepage": "https://github.com/egaillot/the-server-that-goes-ping"
+}
