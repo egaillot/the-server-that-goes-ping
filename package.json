@@ -18,6 +18,7 @@
   "homepage": "https://github.com/egaillot/the-server-that-goes-ping",
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^1.20.0"
+    "mocha": "^1.20.0",
+    "request": "^2.36.0"
   }
 }
