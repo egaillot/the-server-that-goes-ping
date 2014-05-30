@@ -1,7 +1,9 @@
 var http = require("http");
 
-exports.createServer = function(){
+exports.createServer = function(pinger){
   return http.createServer(function(request, response){
-	response.end("some.minecraft.server: 42 players connected.");
+    	pinger.ping("bla",333,function(num_players){
+		response.end("some.minecraft.server: " + num_players + " players connected.");
+	});
   });
 };

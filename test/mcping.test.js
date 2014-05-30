@@ -11,7 +11,6 @@ describe("A Minecraft ping server", function () {
           }
         },
         ourPingServer = mcPing.createServer(pinger);
-
     ourPingServer.listen(1789, function () {
       request("http://localhost:1789/some.minecraft.server/9999",
         function (err, _, body) {
